@@ -1,0 +1,42 @@
+
+Sistema de Avaliações Médicas
+1 - Médicos
+2 - Pacientes
+3 - Avaliações
+4 - Problemas de Saúde
+5 - Operações de um Paciente
+número da operação do Projeto a ser executada: 1
+
+Médicos: nome, experiência, especialidade
+ 1 - Cleiton   20 anos   pneumologia  
+ 2 - Junior    35 anos   cardiologia  
+ 3 - Ronaldo   10 anos   cardiologia  
+
+Sistema de Avaliações Médicas
+1 - Médicos
+2 - Pacientes
+3 - Avaliações
+4 - Problemas de Saúde
+5 - Operações de um Paciente
+número da operação do Projeto a ser executada: 5
+
+Selecionar o Paciente
+ 1 - Ana Júlia (CPF: 111.111.111-11)
+ 2 - Heitor (CPF: 222.222.222-22)
+ 3 - Carlos (CPF: 333.333.333-33)
+número do Paciente a ser executado: 1
+
+Paciente: Ana Júlia (CPF: 111.111.111-11)
+1 - Problemas de Saúde do Paciente
+2 - Problemas: ordenação crescente por custo mensal
+3 - Problemas: ordenação decrescente por tempo de recuperação
+4 - Problemas: ordenação decrescente por tempo e custo
+número da operação do Paciente a ser executada: 1
+
+Problemas de Saúde do Paciente: título, sintomas, tempo, custo
+ 1 - Sopro       Desmaio        30 dias   R$ 10000.0  
+ 2 - Covid       Falta de ar    30 dias   R$ 200.0    
+ 3 - Gripe       Febre e dor    15 dias   R$ 20.0     
+ 4 - Asma        Falta de ar    15 dias   R$ 1500.0   
+ 5 - Pneumonia   Tosse aguda    30 dias   R$ 3000.0   
+ 6 - Alergia     Espirros       15 dias   R$ 160.0    

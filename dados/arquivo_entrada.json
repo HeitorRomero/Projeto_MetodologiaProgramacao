@@ -1,0 +1,43 @@
+{
+  "médicos": [
+    {"nome": "Cleiton", "anos_experiencia": 20, "especialidade": "pneumologia"},
+    {"nome": "Junior", "anos_experiencia": 35, "especialidade": "cardiologia"},
+    {"nome": "Ronaldo", "anos_experiencia": 10, "especialidade": "cardiologia"}
+  ],
+  "problemas_saúde": [
+    {"título": "Asma", "sintomas": "Falta de ar", "tempo_recuperação": 15, "custo_mensal": 1500.0},
+    {"título": "Gripe", "sintomas": "Febre e dor", "tempo_recuperação": 15, "custo_mensal": 20.0},
+    {"título": "Alergia", "sintomas": "Espirros", "tempo_recuperação": 15, "custo_mensal": 160.0},
+    {"título": "Pneumonia", "sintomas": "Tosse aguda", "tempo_recuperação": 30, "custo_mensal": 3000.0},
+    {"título": "Covid", "sintomas": "Falta de ar", "tempo_recuperação": 30, "custo_mensal": 200.0},
+    {"título": "Sopro", "sintomas": "Desmaio", "tempo_recuperação": 30, "custo_mensal": 10000.0}
+  ],
+  "pacientes": {
+    "111.111.111-11": {
+      "nome": "Ana Júlia",
+      "cidade": "Dourados",
+      "chaves_problemas": ["Sopro", "Covid", "Gripe", "Asma", "Pneumonia", "Alergia"]
+    },
+    "222.222.222-22": {
+      "nome": "Heitor",
+      "cidade": "Campo Grande",
+      "chaves_problemas": ["Asma", "Pneumonia", "Covid"]
+    },
+    "333.333.333-33": {
+      "nome": "Carlos",
+      "cidade": "Ponta Porã",
+      "chaves_problemas": ["Sopro", "Pneumonia", "Alergia"]
+    }
+  },
+  "avaliações": {
+    "111.111.111-11": {
+      "Cleiton": { "data": "10/05/2026" }
+    },
+    "222.222.222-22": {
+      "Junior": { "data": "12/05/2026" }
+    },
+    "333.333.333-33": {
+      "Ronaldo": { "data": "15/05/2026" }
+    }
+  }
+}
