@@ -1,4 +1,4 @@
-# 🏥 Sistema de Diagnósticos Médicos (MP-E3)
+# 🏥 Sistema de Diagnósticos Médicos
 
 ## 💻 Sobre o Projeto
 Este é um sistema de controle e gerenciamento hospitalar desenvolvido inteiramente em **Python** via linha de comando (CLI). Foi o projeto final (Etapa 4) desenvolvido para a disciplina de Metodologia e Programação. 
